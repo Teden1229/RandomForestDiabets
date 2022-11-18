@@ -1,3 +1,6 @@
+#ЭТОТ КОД СОЗДАН ДЛЯ ПРОВЕРКИ РБОТЫ В РЕПОЗИТОРИЯХ
+#НУЖНО УЗНАТЬ КАК РАБОТАЮТ КОММИТЫ
+#ПОСМОТРЕТЬ ИСТОРИЮ ПРОЕКТА
 import sklearn
 import numpy as np
 import pandas as pd
@@ -58,4 +61,3 @@ plt.show()
 model1 = LogisticRegression(random_state=0, C=100).fit(X_train, Y_train)
 Y_pred1 = model1.predict(X_test) #Получаем предсказания
 print(accuracy_score(Y_test, Y_pred1))
-
